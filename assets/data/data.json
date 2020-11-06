@@ -1,0 +1,85 @@
+{
+    "logo": [{
+        "src": "/assets/images/hkh3.png"
+    }],
+
+    "navigations": [{
+            "name": "Portfolio",
+            "href": "#portfolio"
+        },
+        {
+            "name": "About",
+            "href": "#about"
+        },
+        {
+            "name": "Contact",
+            "href": "#contact"
+        }
+    ],
+
+    "works": [{
+            "title": "2030 Polestar Pure 1 Concept",
+            "subtitle": "",
+            "description": "Polestar is an electric performance car brand harnessing refined performance and cutting-edge technology. Polestar is aiming to bring driving pleasure into a new era with an all-electric product offering of progressive performance cars that are designed and engineered without compromise. My goal in designing 'Polar Star Pure 1' is to show the vision of the carmaker's design style until 2030, and in this design, the aerodynamic characteristics and special style of this car company are depicted. ",
+            "image": {
+                "src": "/assets/images/2030PolestarPure1Concept.jpg",
+                "alt": "2030 Polestar Pure 1 Concept"
+            }
+        },
+        {
+            "title": "HONEY STORE 2020 Project",
+            "subtitle": "",
+            "description": "This project is done to design the logo of a company selling honey and honey related products. In this design, an attempt was made to place modern features and elements alongside the classics.",
+            "image": {
+                "src": "/assets/images/honey-store.png",
+                "alt": "logo design of Honey Store 2020 company that selling honey and honey related products"
+            }
+        },
+        {
+            "title": "PMA logo",
+            "subtitle": "",
+            "description": "I have designed a logo for PMA (Project Management Academy) it is an Iranian academy in management. In this design, an attempt has been made to depict the management of a collection by drawing lines as modifiers and drawing circles as elements of a company.",
+            "image": {
+                "src": "/assets/images/pma-logo.png",
+                "alt": "PMA (Project Management Academy) it is an Iranian academy in management"
+            }
+        },
+        {
+            "title": "2020 BMW iT Series Concept",
+            "subtitle": "",
+            "description": "Electric vehicles now include cars, transit buses, trucks of all sizes, and even big-rig tractor trailers that are at least partially powered by electricity. One of the companies that have a lot of experience in research and production of electric vehicles is the German company BMW, which has 40 years of experience in research and engineering related to electric vehicles. BMW's efforts to research electric vehicles over the past 40 years have resulted in the production of electric vehicles such as the i8 and i3, which combine sportiness and low fuel consumption with the owner. Most car enthusiasts like that BMW build trucks under the BMW brand, so I tried to combine the sporty features of this brand with the functional capabilities of a heavy vehicle by designing an IT series concept for this company.",
+            "image": {
+                "src": "/assets/images/2020-BMW-iTSeries-Concept.png",
+                "alt": "2020 BMW iT Series Concept the BMW electric truck"
+            }
+        },
+        {
+            "title": "Front view",
+            "subtitle": "",
+            "description": "When you are talking with someone, it is better to have eye contact with that person. In these projects, I aim to express how important a front view. In the front view, the design can speak directly to its audience.",
+            "image": {
+                "src": "/assets/images/front-view.png",
+                "alt": "Front view design of super sportcar that express how important a front view"
+            }
+        },
+        {
+            "title": "Space ship design",
+            "subtitle": "",
+            "description": "In the future transportation will be very different from nowadays and space ships will become public vehicles. In these sketches, I want to show the futuristic style of space ships to transfer people from different stations in the space.",
+            "image": {
+                "src": "/assets/images/spaceship.png",
+                "alt": "Space ship design"
+            }
+        },
+        {
+            "title": "2020 Khomjani Ezio GT Concept",
+            "subtitle": "",
+            "description": "This design was made in honor of the beloved character of the Assassin Creed games series, Ezio Auditore.",
+            "image": {
+                "src": "/assets/images/2020-Khomjani-Ezio-GT-Concept.jpg",
+                "alt": "Digita sketch of 2020 Khomjani Ezio GT Concept by Hamed Khomjani"
+            }
+        }
+
+    ]
+}

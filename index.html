@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="/assets/images/hkh3.png" alt="Hamed Khomjanis Logo">
+        <nav class="navigation" id="navigation">
+
+        </nav>
+    </header>
+    <main class="main">
+
+        <section class="section" id="portfolio">
+            <h1 class="header">Portfolio</h1>
+            <div class="works" id="works">
+
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <h1 class="header">About</h1>
+            <p class="paragraph">I am a digital & graphic designer passionate about design and functional products. I aim to create digital products with the best aesthetic and functional quality. I have design thinking and creativity to design everything I want.</p>
+        </section>
+
+        <section class="contact" id="contact">
+            <h1 class="header">Contact</h1>
+
+
+            <form id="contact-form" class="contact-form">
+
+                <div class="name-input">
+                    <label for="Name" class="name">Your name</label>
+                    <input type="text" id="Name" name="Name" class="name-input-field" required>
+                </div>
+
+                <div class="email-input">
+                    <label for="Email" class="mail-adress">Your email address</label>
+                    <input type="email" id="Email" name="Email" class="email-input-field" required>
+                </div>
+
+                <div class="message-input">
+                    <label for="Message" class="message">Your message</label>
+                    <textarea id="Message" name="Message" class="message-input-field" maxlength="3000" required></textarea>
+
+                </div>
+
+                <button type="submit" id="sendBtn" class="send-btn">Send Message</button>
+
+            </form>
+
+
+        </section>
+
+    </main>
+    <footer class="footer">
+        <img class="logo-footer" src="/assets/images/hkh3.png" alt="Hamed Khomjanis Logo">
+        <h1 class="name">Hamed Khomjani</h1>
+        <div class="social-media">
+            <a href="https://www.facebook.com/hkhomjani/" onclick="new_tab" class="fab fa-facebook-f icon"></a>
+            <a href="https://github.com/hamedkhomjani" class="fab fa-github icon"></a>
+            <a href="https://www.behance.net/hamedkhomjanidesign" class="fab fa-behance icon"></a>
+            <a href="https://www.instagram.com/hamed_khomjani" class="fab fa-instagram icon"></a>
+        </div>
+    </footer>
+    <script src="scripts/index.js" type="module"></script>
+</body>
+
+</html>
