@@ -1,28 +1,16 @@
 const navigationElement = document.querySelector("#navigation")
 const worksElement = document.querySelector("#works")
+const jumptotopbtnElement = document.querySelector('#jumptotopbtn')
+const aboutElement = document.querySelector('#about')
 
-//vvvvvvvvvvvvvvvvvvvv Jump button script vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv//
-//Get the button
-var mybutton = document.querySelector("#myBtn");
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() { scrollFunction() };
-
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        mybutton.style.display = "block";
+const scrollHandler = (event) => {
+    if (event.target.scrollingElement.scrollTop <= 400) {
+        jumptotopbtnElement.style.display = "none"
     } else {
-        mybutton.style.display = "none";
+        jumptotopbtnElement.style.display = "block"
     }
 }
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}
-//^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^//
-
 
 fetch("/assets/data/data.json")
     .then((response) => {
@@ -47,4 +35,11 @@ fetch("/assets/data/data.json")
             </div>`
 
         }).join("")
+
+        aboutElement.innerHTML = `
+            <h1 class="header">${data.about.title}</h1>
+            <p class="paragraph">${data.about.paragraph}</p>
+        `
+
+
     });

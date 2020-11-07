@@ -17,6 +17,11 @@
         }
     ],
 
+    "about": {
+        "title": "About",
+        "paragraph": "I am a digital & graphic designer passionate about design and functional products. I aim to create digital products with the best aesthetic and functional quality. I have design thinking and creativity to design everything I want."
+    },
+
     "works": [{
             "title": "2030 Polestar Pure 1 Concept",
             "subtitle": "",
