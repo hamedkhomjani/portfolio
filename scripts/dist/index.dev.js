@@ -22,5 +22,5 @@ fetch("/assets/data/data.json").then(function (response) {
   data.works.map(function (work) {
     worksElement.innerHTML = worksElement.innerHTML + "<div class=\"work\">\n                <div class=\"fore\">\n                    <img class=\"image\" src=\"".concat(work.image.src, "\" alt=\"").concat(work.image.alt, "\">\n                </div>\n                <div class=\"back\">\n                    <h2 class=\"title\">").concat(work.title, "</h2>\n                    <p class=\"description\">").concat(work.description, "</p>\n                </div>\n            </div>");
   }).join("");
-  aboutElement.innerHTML = "\n            <h1 class=\"header\">".concat(data.about.title, "</h1>\n            <p class=\"paragraph\">").concat(data.about.paragraph, "</p>\n        ");
+  aboutElement.innerHTML = "\n            <h1 class=\"header\">".concat(data.about.title, "</h1>\n            <p class=\"paragraph\">").concat(data.about.paragraph, "</p>\n            <img src=\"/assets/images/about-back.gif\" class=\"aboutimg\">\n        ");
 });

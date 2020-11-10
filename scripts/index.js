@@ -39,7 +39,7 @@ fetch("/assets/data/data.json")
         aboutElement.innerHTML = `
             <h1 class="header">${data.about.title}</h1>
             <p class="paragraph">${data.about.paragraph}</p>
+            <img src="/assets/images/about-back.gif" class="aboutimg">
         `
-
 
     });
