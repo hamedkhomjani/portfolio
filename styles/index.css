@@ -244,37 +244,41 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1rem;
     background-color: black;
+    margin-bottom: 1rem;
+    letter-spacing: 4px;
 }
 
 .email-input {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1rem;
+    margin-bottom: 1rem;
+    letter-spacing: 4px;
 }
 
 .name-input-field,
 .email-input-field {
-    width: 25rem;
+    width: 35rem;
     height: 3rem;
+    background-color: darkgray;
 }
 
 .message-input {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1rem;
     box-sizing: border-box;
     height: initial;
     width: 100%;
+    letter-spacing: 4px;
 }
 
 .message-input-field {
     max-width: 40rem;
     min-width: 35.5rem;
     height: 16rem;
+    background-color: darkgray;
 }
 
 .send-btn {
