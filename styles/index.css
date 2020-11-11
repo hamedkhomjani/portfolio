@@ -47,6 +47,13 @@ header {
     backface-visibility: hidden;
 }
 
+.name {
+    color: whitesmoke;
+    justify-self: center;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
 .navigation {
     display: grid;
     grid-gap: 3rem;
@@ -327,11 +334,6 @@ header {
 
 .logo-footer {
     width: 12rem;
-    position: relative;
-    z-index: 1;
-}
-
-.name {
     position: relative;
     z-index: 1;
 }
