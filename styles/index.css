@@ -118,7 +118,7 @@ header {
 
 .works {
     display: grid;
-    grid-template-columns: calc(100% / 3) clc(100% / 3) calc(100% / 3);
+    grid-template-columns: calc(100% / 3);
     gap: 1rem;
 }
 
