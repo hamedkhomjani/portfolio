@@ -47,13 +47,6 @@ header {
     backface-visibility: hidden;
 }
 
-.name {
-    color: whitesmoke;
-    justify-self: center;
-    text-transform: uppercase;
-    z-index: 1;
-}
-
 .navigation {
     display: grid;
     grid-gap: 3rem;
@@ -125,7 +118,7 @@ header {
 
 .works {
     display: grid;
-    grid-template-columns: calc(100% / 3) calc(100% / 3) calc(100% / 3);
+    grid-template-columns: calc(100% / 3) clc(100% / 3) calc(100% / 3);
     gap: 1rem;
 }
 
@@ -338,6 +331,13 @@ header {
     z-index: 1;
 }
 
+.name {
+    color: whitesmoke;
+    justify-self: center;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
 .social-media .icon:not(:last-of-type) {
     margin-right: 2rem;
 }
@@ -374,5 +374,8 @@ header {
         padding-left: 2rem;
         padding-right: 2rem;
         padding-bottom: 10rem;
+    }
+    .name {
+        font-size: x-large;
     }
 }
